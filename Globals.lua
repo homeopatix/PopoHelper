@@ -9,35 +9,35 @@ function CreateLocalizationInfo()
 
 	if Turbine.Engine.GetLanguage() == Turbine.Language.German then
 		Strings.PluginName = "PopoHelper";
-		Strings.PluginText = "Par Homeopatix";
+		Strings.PluginText = "Von Homeopatix";
 		Strings.PluginMorale = "Moral ";
 		Strings.PluginPower = "Kraft ";
-		Strings.PluginPosition = "Aktuelle Symbols Position";
-		Strings.PluginResize = "Neupositionierung des Symbols auf ";
-		Strings.PluginUnload = "Entladen Sie das Plugin mit : /plugins entladen ";
-		Strings.PluginReload = "Laden Sie das Plugin mit : /plugins laden ";
-		Strings.PluginPourcent = "Grenzwert : ";
+		Strings.PluginPosition = "Aktuelle Position des Symbols ";
+		Strings.PluginResize = "Neue Position des Symbols ";
+		Strings.PluginUnload = "Beende das Plugin mit: /zusatzmodule entfernen ";
+		Strings.PluginReload = "Lade das Plugin danach mit: /zusatzmodule laden ";
+		Strings.PluginPourcent = "Grenzwert: ";
 		Strings.PluginPourcent2 = " des Lebens";
-		Strings.PluginPourcent3 = " auf Kraft";
-		Strings.PluginLocked = "Gesperrte Symbole";
-		Strings.PluginUnlocked = "Symbole freigeschaltet";
+		Strings.PluginPourcent3 = " der Kraft";
+		Strings.PluginLocked = "Verkn\195\188pfungen gesperrt";
+		Strings.PluginUnlocked = "Verkn\195\188pfungen entsperrt";
 		Strings.PluginAltEnable = "Alt-Taste aktiviert";
 		Strings.PluginAltDesable = "Alt-Taste deaktiviert";
-		Strings.PluginWindowShow = "Schaufenster.";
-		Strings.PluginWindowHide = "Verstecke das Fenster.";
+		Strings.PluginWindowShow = "Fenster wird angezeigt";
+		Strings.PluginWindowHide = "Fenster wird ausgeblendet";
 		Strings.PluginWrath = "Zorn";
-		Strings.PluginHelp = " *** PopoHelper Hilfe ***\n\n/show zeigt das Fenster an\n" .. 
-		"/popo hide verstecke das Fenster\n" ..
-		"/popo clear l\195\182sche alle Verkn\195\188pfungen\n" .. 
-		"/popo default Setzen Sie die prozentuale Grenze auf 20%\n" ..
-		"/popo repos Zeigt die tats\195\164chliche Position des Symbols an\n" ..
-		"/popo repos xxx xxx Positionieren Sie das Symbol an der Koordinate xxx und xxx\n" ..
-		"/popo alt - ALT-Taste gedr\195\188ckt halten, um das Symbol zu verschieben.\n" ..
-		"/popo mopourcent xx -- Stellen Sie das prozentuale Limit fur moral auf xx = Ihre Wahl ein\n" ..
-		"/popo popourcent xx -- Stellen Sie das prozentuale Limit fur kraft auf xx = Ihre Wahl ein\n" ..
-		"/popo lock um die Symbole zu sperren oder zu entsperren\n" ..
-		"/popo toggle - Fenster ein-oder ausblenden\n\n" ..
-		"Sie k\195\182nnen Ihre Verbrauchsmaterialien per Drag & Drop auf die Linie ziehen und mit dem Mausrad l\195\182schen\n";
+		Strings.PluginHelp = " *** PopoHelper Hilfe ***\n\n/popo show - Zeigt das Fenster an.\n" .. 
+		"/popo hide - Blendet das Fenster aus.\n" ..
+		"/popo clear - L\195\182scht alle Verkn\195\188pfungen.\n" .. 
+		"/popo default - Setzt das prozentuale Limit auf 20%.\n" ..
+		"/popo repos - Zeigt die aktuelle Position des Symbols an.\n" ..
+		"/popo repos xxx yyy - Positioniert das Symbol an den eingegebenen Koordinaten (x/y).\n" ..
+		"/popo alt - Alt-Taste gedr\195\188ckt halten, um das Symbol zu verschieben.\n" ..
+		"/popo mopourcent xx - Stellt das prozentuale Limit f\195\188r Moral auf xx% ein.\n" ..
+		"/popo popourcent xx - Stellt das prozentuale Limit f\195\188r Kraft auf xx% ein.\n" ..
+		"/popo lock - Sperrt bzw. entsperrt die Verkn\195\188pfungen.\n" ..
+		"/popo toggle - Fenster anzeigen/ausblenden.\n\n" ..
+		"Du kannst deine Tr\195\164nke per Drag & Drop auf die Pl\195\164tze ziehen und mit dem Mausrad l\195\182schen\n.";
 elseif Turbine.Engine.GetLanguage() == Turbine.Language.French then
 		Strings.PluginName = "PopoHelper";
 		Strings.PluginText = "Par Homeopatix";
