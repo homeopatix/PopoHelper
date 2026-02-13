@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<Plugin>
+	<Information>
+		<Name>PopoHelper</Name>
+		<Author>Homeopatix</Author>
+		<Version>1.10</Version>
+		<Description>
+DESCRIPTION (Francais)
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+PopoHelper est un petit plugin pour avoir un acces rapide a vos potions
+La fentre s affiche automatiquement quand vous avez atteint le seuil defini
+Vous pouvez definir vous meme le seuil limite d ouverture de la fenetre
+Vous pouvez effacer un raccourci avec la mollete de la souris sur le reccourci
+
+DESCRIPTION (English)
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+PopoHelper is a small plugin to have quick access to your potions
+The window is displayed automatically when you have reached the threshold defined
+You can define the threshold limit for opening the window yourself
+You can delete a shortcut with the mouse wheel on the shortcut
+
+DESCRIPTION (Deutsche)  
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+PopoHelper ist ein kleines Plugin, mit dem Sie schnell auf Ihre Tranke
+Das Fenster wird automatisch angezeigt wenn Sie den standardmassig festgelegten Schwellenwert
+Sie konnen den Schwellenwert fur das Offnen des Fensters selbst definieren
+Sie konnen eine Verknupfung mit dem Mausrad auf der Verknupfung loschen
+
+LIST OF ALL COMMANDS
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+
+(French)
+Raccourci disponible
+/Popo show - montre la fenetre
+/Popo hide - cache la fenetre
+/Popo clear - effacer toutes les entrees
+/Popo default - regle le pourcentage limite sur 20 pourcent
+/popo repos - Afficher la position actuelle de l icone
+/popo repos xxx xxx - positionner l icone sur les coordonnes xxx et xxx
+/Popo mopourcent xx - regle le pourcentage limite de morale sur xx
+/Popo popourcent xx - regle le pourcentage limite de puissance sur xx
+/Popo lock pour verrouiller ou deverrouiller les icones
+/Popo toggle - Affiche ou cache la fenetre
+
+(English)
+Shortcut available
+/Popo show - show the window
+/Popo hide - hide the window
+/Popo clear - clear all entries
+/Popo default - set the percentage limit to 20 percent
+/popo repos - Display the actual position of the icon
+/popo repos xxx xxx - position the icon to the xxx and xxx coord
+/Popo mopourcent xx - set the morale percentage limit on xx
+/Popo popourcent xx - set the power percentage limit on xx
+/Popo lock to lock or unlock the icons
+/Popo toggle - Display or hide the window
+
+(Deutsche)
+Verknupfung verfugbar
+/Popo show - zeige das Fenster
+/Popo Hide - Verstecke das Fenster
+/Popo clear - Alle Eintrage loschen
+/Popo default - Setzen Sie die prozentuale Grenze auf 20 Prozent
+/popo repos - Zeigt die tatsachliche Position des Symbols an
+/popo repos xxx xxx - Positionieren Sie das Symbol an der Koordinate xxx und xxx
+/Popo mopourcent xx - Stellen Sie das prozentuale Limit fur moral auf xx
+/Popo popourcent xx - Stellen Sie das prozentuale Limit fur kraft auf xx
+/Popo lock um die Symbole zu sperren oder zu entsperren
+/Popo toggle - Fenster ein-oder ausblenden
+</Description>
+<Image>Homeopatix/PopoHelper/Resources/pluginmanager_icon.tga</Image>
+	</Information>
+	<Package>Homeopatix.PopoHelper.Main</Package>
+<Configuration Apartment="PopoHelper" />
+</Plugin>
