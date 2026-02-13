@@ -28,16 +28,16 @@ It provides quick access to your potions and automatically displays the window w
 
 ---
 
-/Popo show - montre la fenetre
-/Popo hide - cache la fenetre
-/Popo clear - effacer toutes les entrees
-/Popo default - regle le pourcentage limite sur 20 pourcent
-/popo repos - Afficher la position actuelle de l icone
-/popo repos xxx xxx - positionner l icone sur les coordonnes xxx et xxx
-/Popo mopourcent xx - regle le pourcentage limite de morale sur xx
-/Popo popourcent xx - regle le pourcentage limite de puissance sur xx
-/Popo lock pour verrouiller ou deverrouiller les icones
-/Popo toggle - Affiche ou cache la fenetre
+`/Popo show` - montre la fenetre
+`/Popo hide` - cache la fenetre
+`/Popo clear` - effacer toutes les entrees
+`/Popo default` - regle le pourcentage limite sur 20 pourcent
+`/popo repos` - Afficher la position actuelle de l icone
+`/popo repos xxx xxx` - positionner l icone sur les coordonnes xxx et xxx
+`/Popo mopourcent xx` - regle le pourcentage limite de morale sur xx
+`/Popo popourcent xx `- regle le pourcentage limite de puissance sur xx
+`/Popo lock` pour verrouiller ou deverrouiller les icones
+`/Popo toggle` - Affiche ou cache la fenetre
 
 ---
 
